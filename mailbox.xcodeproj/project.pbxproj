@@ -13,6 +13,7 @@
 		E4C6F5C319F74B7C009278C5 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E4C6F5C219F74B7C009278C5 /* Images.xcassets */; };
 		E4C6F5C619F74B7C009278C5 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = E4C6F5C419F74B7C009278C5 /* LaunchScreen.xib */; };
 		E4C6F5D219F74B7C009278C5 /* mailboxTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4C6F5D119F74B7C009278C5 /* mailboxTests.swift */; };
+		E4C6F5DC19F8B56E009278C5 /* FeedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4C6F5DB19F8B56E009278C5 /* FeedViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +37,7 @@
 		E4C6F5CB19F74B7C009278C5 /* mailboxTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = mailboxTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E4C6F5D019F74B7C009278C5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E4C6F5D119F74B7C009278C5 /* mailboxTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mailboxTests.swift; sourceTree = "<group>"; };
+		E4C6F5DB19F8B56E009278C5 /* FeedViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FeedViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,6 +82,7 @@
 				E4C6F5BB19F74B7C009278C5 /* AppDelegate.swift */,
 				E4C6F5BD19F74B7C009278C5 /* ViewController.swift */,
 				E4C6F5BF19F74B7C009278C5 /* Main.storyboard */,
+				E4C6F5DB19F8B56E009278C5 /* FeedViewController.swift */,
 				E4C6F5C219F74B7C009278C5 /* Images.xcassets */,
 				E4C6F5C419F74B7C009278C5 /* LaunchScreen.xib */,
 				E4C6F5B919F74B7C009278C5 /* Supporting Files */,
@@ -213,6 +216,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E4C6F5BE19F74B7C009278C5 /* ViewController.swift in Sources */,
+				E4C6F5DC19F8B56E009278C5 /* FeedViewController.swift in Sources */,
 				E4C6F5BC19F74B7C009278C5 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -405,6 +409,7 @@
 				E4C6F5D719F74B7C009278C5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E4C6F5D819F74B7C009278C5 /* Build configuration list for PBXNativeTarget "mailboxTests" */ = {
 			isa = XCConfigurationList;
@@ -413,6 +418,7 @@
 				E4C6F5DA19F74B7C009278C5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
