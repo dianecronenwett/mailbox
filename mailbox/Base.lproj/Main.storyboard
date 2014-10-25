@@ -1,70 +1,106 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6245" systemVersion="13F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" initialViewController="vXZ-lx-hvc">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6250" systemVersion="13F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" initialViewController="vXZ-lx-hvc">
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6238"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6244"/>
     </dependencies>
     <scenes>
-        <!--View Controller-->
+        <!--Feed View Controller-->
         <scene sceneID="ufC-wZ-h7g">
             <objects>
-                <viewController id="vXZ-lx-hvc" customClass="ViewController" customModule="mailbox" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="vXZ-lx-hvc" customClass="FeedViewController" customModule="mailbox" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="kh9-bI-dsS">
-                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="1482"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
-                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" id="vKm-Ec-rWK">
-                                <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
-                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                            <scrollView autoresizesSubviews="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" id="vKm-Ec-rWK">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="1482"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" heightSizable="YES"/>
                                 <subviews>
-                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="feed" id="rIj-pv-Ask">
-                                        <rect key="frame" x="0.0" y="228" width="320" height="1202"/>
-                                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                                    </imageView>
-                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="nav" id="Cuy-sf-2RY">
-                                        <rect key="frame" x="0.0" y="0.0" width="320" height="65"/>
+                                    <view contentMode="scaleToFill" id="Zz9-8j-nLU">
+                                        <rect key="frame" x="0.0" y="26" width="320" height="1430"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                    </imageView>
-                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="search" id="kqd-Eu-DlI">
-                                        <rect key="frame" x="0.0" y="101" width="320" height="42"/>
-                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                    </imageView>
-                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="help_label" id="kn8-cJ-SY0">
-                                        <rect key="frame" x="0.0" y="64" width="320" height="37"/>
-                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                    </imageView>
-                                    <segmentedControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="1" id="wYU-4e-Yje">
-                                        <rect key="frame" x="68" y="19" width="184" height="29"/>
-                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                        <color key="backgroundColor" red="0.40000000596046448" green="0.80000001192092896" blue="1" alpha="1" colorSpace="calibratedRGB"/>
-                                        <segments>
-                                            <segment title=""/>
-                                            <segment title=""/>
-                                            <segment title=""/>
-                                        </segments>
-                                        <color key="tintColor" red="0.79215693473815918" green="0.90588241815567017" blue="0.94117653369903564" alpha="1" colorSpace="deviceRGB"/>
-                                    </segmentedControl>
-                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="mail_nav_icon" id="F0w-JQ-FSC">
-                                        <rect key="frame" x="147" y="24" width="25" height="20"/>
-                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                    </imageView>
-                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="message" id="MTA-Lt-qKc">
-                                        <rect key="frame" x="0.0" y="142" width="320" height="86"/>
-                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                    </imageView>
+                                        <subviews>
+                                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="help_label" id="kn8-cJ-SY0">
+                                                <rect key="frame" x="0.0" y="57" width="320" height="37"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            </imageView>
+                                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="search" id="kqd-Eu-DlI">
+                                                <rect key="frame" x="0.0" y="97" width="320" height="42"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            </imageView>
+                                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="feed" id="rIj-pv-Ask">
+                                                <rect key="frame" x="0.0" y="224" width="320" height="1202"/>
+                                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                            </imageView>
+                                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="nav" id="Cuy-sf-2RY">
+                                                <rect key="frame" x="0.0" y="-9" width="320" height="65"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            </imageView>
+                                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="later_icon" id="ajP-fX-XCg">
+                                                <rect key="frame" x="265" y="162" width="25" height="25"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            </imageView>
+                                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="archive_icon" id="KtV-r7-Dn9">
+                                                <rect key="frame" x="24" y="162" width="25" height="25"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            </imageView>
+                                            <segmentedControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="1" id="wYU-4e-Yje">
+                                                <rect key="frame" x="67" y="10" width="184" height="29"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <color key="backgroundColor" red="0.40000000596046448" green="0.80000001192092896" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                                <segments>
+                                                    <segment title=""/>
+                                                    <segment title=""/>
+                                                    <segment title=""/>
+                                                </segments>
+                                                <color key="tintColor" red="0.79215693473815918" green="0.90588241815567017" blue="0.94117653369903564" alpha="1" colorSpace="deviceRGB"/>
+                                            </segmentedControl>
+                                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="mail_nav_icon" id="F0w-JQ-FSC">
+                                                <rect key="frame" x="147" y="14" width="25" height="20"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            </imageView>
+                                            <imageView contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="message" id="MTA-Lt-qKc">
+                                                <rect key="frame" x="0.0" y="138" width="320" height="86"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <gestureRecognizers/>
+                                                <connections>
+                                                    <outletCollection property="gestureRecognizers" destination="qEo-OY-qLQ" appends="YES" id="K2o-Lm-Y5u"/>
+                                                </connections>
+                                            </imageView>
+                                        </subviews>
+                                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                    </view>
                                 </subviews>
                             </scrollView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
+                    <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+                    <size key="freeformSize" width="320" height="1482"/>
+                    <connections>
+                        <outlet property="archiveIcon" destination="KtV-r7-Dn9" id="T0e-bc-f2I"/>
+                        <outlet property="feedImage" destination="rIj-pv-Ask" id="mF0-S2-37x"/>
+                        <outlet property="imageContainer" destination="Zz9-8j-nLU" id="1Es-oo-tWU"/>
+                        <outlet property="laterIcon" destination="ajP-fX-XCg" id="lIl-Rv-3H2"/>
+                        <outlet property="messageView" destination="MTA-Lt-qKc" id="aGy-wy-xkB"/>
+                        <outlet property="scrollView" destination="vKm-Ec-rWK" id="yxZ-pd-8QV"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
+                <panGestureRecognizer minimumNumberOfTouches="1" id="qEo-OY-qLQ">
+                    <connections>
+                        <action selector="messageSwipe:" destination="vXZ-lx-hvc" id="yxq-oK-qOU"/>
+                    </connections>
+                </panGestureRecognizer>
             </objects>
-            <point key="canvasLocation" x="74" y="129"/>
+            <point key="canvasLocation" x="145" y="114"/>
         </scene>
     </scenes>
     <resources>
+        <image name="archive_icon" width="25" height="25"/>
         <image name="feed" width="320" height="1202"/>
         <image name="help_label" width="320" height="37"/>
+        <image name="later_icon" width="25" height="25"/>
         <image name="mail_nav_icon" width="25" height="20"/>
         <image name="message" width="320" height="86"/>
         <image name="nav" width="320" height="65"/>

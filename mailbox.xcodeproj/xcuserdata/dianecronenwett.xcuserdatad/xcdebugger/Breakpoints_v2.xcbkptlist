@@ -1,0 +1,261 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "mailbox/FeedViewController.swift"
+            timestampString = "435957237.044952"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "18"
+            endingLineNumber = "18"
+            landmarkName = "FeedViewController"
+            landmarkType = "3">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "mailbox/FeedViewController.swift"
+            timestampString = "435774978.023721"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "13"
+            endingLineNumber = "13"
+            landmarkName = "FeedViewController"
+            landmarkType = "3">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "mailbox.FeedViewController.scrollView.setter : weak Swift.ImplicitlyUnwrappedOptional&lt;ObjectiveC.UIScrollView&gt;"
+                  moduleName = "mailbox"
+                  urlString = "file:///Users/dianecronenwett/Desktop/mailbox/mailbox/mailbox/FeedViewController.swift"
+                  timestampString = "435775121.679484"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "25">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "mailbox.FeedViewController.init (mailbox.FeedViewController.Type)(nibName : Swift.Optional&lt;Swift.String&gt;, bundle : Swift.Optional&lt;ObjectiveC.NSBundle&gt;) -&gt; mailbox.FeedViewController"
+                  moduleName = "mailbox"
+                  urlString = "file:///Users/dianecronenwett/Desktop/mailbox/mailbox/mailbox/FeedViewController.swift"
+                  timestampString = "435775121.679698"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "13"
+                  endingLineNumber = "13"
+                  offsetFromSymbolStart = "49">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "mailbox.FeedViewController.init (mailbox.FeedViewController.Type)() -&gt; mailbox.FeedViewController"
+                  moduleName = "mailbox"
+                  urlString = "file:///Users/dianecronenwett/Desktop/mailbox/mailbox/mailbox/FeedViewController.swift"
+                  timestampString = "435775121.679895"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "13"
+                  endingLineNumber = "13"
+                  offsetFromSymbolStart = "30">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "mailbox.FeedViewController.init (mailbox.FeedViewController.Type)(coder : ObjectiveC.NSCoder) -&gt; mailbox.FeedViewController"
+                  moduleName = "mailbox"
+                  urlString = "file:///Users/dianecronenwett/Desktop/mailbox/mailbox/mailbox/FeedViewController.swift"
+                  timestampString = "435775121.680102"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "13"
+                  endingLineNumber = "13"
+                  offsetFromSymbolStart = "34">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "mailbox/FeedViewController.swift"
+            timestampString = "435774978.991558"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "14"
+            endingLineNumber = "14"
+            landmarkName = "FeedViewController"
+            landmarkType = "3">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "mailbox.FeedViewController.feedImage.getter : weak Swift.ImplicitlyUnwrappedOptional&lt;ObjectiveC.UIImageView&gt;"
+                  moduleName = "mailbox"
+                  urlString = "file:///Users/dianecronenwett/Desktop/mailbox/mailbox/mailbox/FeedViewController.swift"
+                  timestampString = "435775121.681708"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "18">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "mailbox.FeedViewController.init (mailbox.FeedViewController.Type)(nibName : Swift.Optional&lt;Swift.String&gt;, bundle : Swift.Optional&lt;ObjectiveC.NSBundle&gt;) -&gt; mailbox.FeedViewController"
+                  moduleName = "mailbox"
+                  urlString = "file:///Users/dianecronenwett/Desktop/mailbox/mailbox/mailbox/FeedViewController.swift"
+                  timestampString = "435775121.681979"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "14"
+                  endingLineNumber = "14"
+                  offsetFromSymbolStart = "128">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "mailbox.FeedViewController.init (mailbox.FeedViewController.Type)() -&gt; mailbox.FeedViewController"
+                  moduleName = "mailbox"
+                  urlString = "file:///Users/dianecronenwett/Desktop/mailbox/mailbox/mailbox/FeedViewController.swift"
+                  timestampString = "435775121.682089"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "14"
+                  endingLineNumber = "14"
+                  offsetFromSymbolStart = "82">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "mailbox.FeedViewController.init (mailbox.FeedViewController.Type)(coder : ObjectiveC.NSCoder) -&gt; mailbox.FeedViewController"
+                  moduleName = "mailbox"
+                  urlString = "file:///Users/dianecronenwett/Desktop/mailbox/mailbox/mailbox/FeedViewController.swift"
+                  timestampString = "435775121.682204"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "14"
+                  endingLineNumber = "14"
+                  offsetFromSymbolStart = "89">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "mailbox/FeedViewController.swift"
+            timestampString = "435774980.913837"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "15"
+            endingLineNumber = "15"
+            landmarkName = "FeedViewController"
+            landmarkType = "3">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "mailbox.FeedViewController.messageView.getter : weak Swift.ImplicitlyUnwrappedOptional&lt;ObjectiveC.UIImageView&gt;"
+                  moduleName = "mailbox"
+                  urlString = "file:///Users/dianecronenwett/Desktop/mailbox/mailbox/mailbox/FeedViewController.swift"
+                  timestampString = "435775121.683677"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "18">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "mailbox.FeedViewController.messageView.setter : weak Swift.ImplicitlyUnwrappedOptional&lt;ObjectiveC.UIImageView&gt;"
+                  moduleName = "mailbox"
+                  urlString = "file:///Users/dianecronenwett/Desktop/mailbox/mailbox/mailbox/FeedViewController.swift"
+                  timestampString = "435775121.683824"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "25">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "mailbox.FeedViewController.init (mailbox.FeedViewController.Type)() -&gt; mailbox.FeedViewController"
+                  moduleName = "mailbox"
+                  urlString = "file:///Users/dianecronenwett/Desktop/mailbox/mailbox/mailbox/FeedViewController.swift"
+                  timestampString = "435775121.68405"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "15"
+                  endingLineNumber = "15"
+                  offsetFromSymbolStart = "132">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "mailbox.FeedViewController.init (mailbox.FeedViewController.Type)(coder : ObjectiveC.NSCoder) -&gt; mailbox.FeedViewController"
+                  moduleName = "mailbox"
+                  urlString = "file:///Users/dianecronenwett/Desktop/mailbox/mailbox/mailbox/FeedViewController.swift"
+                  timestampString = "435775121.684171"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "15"
+                  endingLineNumber = "15"
+                  offsetFromSymbolStart = "139">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "mailbox/FeedViewController.swift"
+            timestampString = "435957237.044952"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "31"
+            endingLineNumber = "31"
+            landmarkName = "viewDidLoad()"
+            landmarkType = "5">
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

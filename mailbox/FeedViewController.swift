@@ -8,19 +8,61 @@
 
 import UIKit
 
-class FeedViewController: UIViewController {
+class FeedViewController: UIViewController, UIScrollViewDelegate {
 
+    @IBOutlet weak var scrollView: UIScrollView!
+    @IBOutlet weak var feedImage: UIImageView!
+    @IBOutlet weak var messageView: UIImageView!
+    @IBOutlet weak var laterIcon: UIImageView!
+    @IBOutlet weak var archiveIcon: UIImageView!
+    @IBOutlet weak var imageContainer: UIView!
+    var imageCenter: CGPoint!
+    
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
+        imageCenter = messageView.center
+        
+        // Automatically calculates the size to find out how far it needs to scroll
+        scrollView.delegate = self
+        scrollView.contentSize = CGSize (width: 320, height:imageContainer.frame.height
+        )
+        
     }
 
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
+        
     }
     
+    @IBAction func messageSwipe(sender: UIPanGestureRecognizer) {
+       //println("Hi@")
+       //the location of the user's finger "sender" in the view specified
+        //translation is how far the user's finger is from the object, in this case message image
+        var location = sender.locationInView(view)
+        var translation = sender.translationInView(view)
+        println("location\(location)")
+        println("translation\(translation)")
+        
+        //
+        if sender.state == UIGestureRecognizerState.Began {
+          imageCenter = messageView.center
+            
+        } else if sender.state == UIGestureRecognizerState.Changed {
+          messageView.center.x = imageCenter.x + translation.x
+
+        
+        } else if sender.state == UIGestureRecognizerState.Ended {
+            
+        }
+        
+        
+    }
+
 
     /*
     // MARK: - Navigation
