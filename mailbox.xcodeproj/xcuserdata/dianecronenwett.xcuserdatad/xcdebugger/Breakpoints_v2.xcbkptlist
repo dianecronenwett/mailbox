@@ -10,7 +10,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "mailbox/FeedViewController.swift"
-            timestampString = "435957237.044952"
+            timestampString = "435985226.683703"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "18"
@@ -248,12 +248,28 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "mailbox/FeedViewController.swift"
-            timestampString = "435957237.044952"
+            timestampString = "435985226.683703"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "31"
-            endingLineNumber = "31"
+            startingLineNumber = "33"
+            endingLineNumber = "33"
             landmarkName = "viewDidLoad()"
+            landmarkType = "5">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "mailbox/FeedViewController.swift"
+            timestampString = "436125613.885205"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "74"
+            endingLineNumber = "74"
+            landmarkName = "messageSwipe(_:)"
             landmarkType = "5">
          </BreakpointContent>
       </BreakpointProxy>
