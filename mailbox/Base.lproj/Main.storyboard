@@ -40,6 +40,10 @@
                                                 <rect key="frame" x="265" y="162" width="25" height="25"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                             </imageView>
+                                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="delete_icon" id="ijd-90-7qj">
+                                                <rect key="frame" x="226" y="162" width="25" height="25"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            </imageView>
                                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="archive_icon" id="KtV-r7-Dn9">
                                                 <rect key="frame" x="24" y="162" width="25" height="25"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -86,6 +90,7 @@
                     <size key="freeformSize" width="320" height="1482"/>
                     <connections>
                         <outlet property="archiveIcon" destination="KtV-r7-Dn9" id="T0e-bc-f2I"/>
+                        <outlet property="deleteIcon" destination="ijd-90-7qj" id="4Gd-eC-EMm"/>
                         <outlet property="feedImage" destination="rIj-pv-Ask" id="mF0-S2-37x"/>
                         <outlet property="imageContainer" destination="Zz9-8j-nLU" id="1Es-oo-tWU"/>
                         <outlet property="laterIcon" destination="ajP-fX-XCg" id="lIl-Rv-3H2"/>
@@ -111,6 +116,7 @@
     </scenes>
     <resources>
         <image name="archive_icon" width="25" height="25"/>
+        <image name="delete_icon" width="25" height="25"/>
         <image name="feed" width="320" height="1202"/>
         <image name="help_label" width="320" height="37"/>
         <image name="later_icon" width="25" height="25"/>

@@ -17,6 +17,7 @@ class FeedViewController: UIViewController, UIScrollViewDelegate, UIGestureRecog
     @IBOutlet weak var archiveIcon: UIImageView!
     @IBOutlet weak var imageContainer: UIView!
     @IBOutlet weak var rescheduleImage: UIImageView!
+    @IBOutlet weak var deleteIcon: UIImageView!
     var imageCenter: CGPoint!
     
    
@@ -34,6 +35,7 @@ class FeedViewController: UIViewController, UIScrollViewDelegate, UIGestureRecog
         scrollView.contentSize = CGSize (width: 320, height:imageContainer.frame.height
         )
         rescheduleImage.alpha = 0
+        
         
     }
 
@@ -79,21 +81,24 @@ class FeedViewController: UIViewController, UIScrollViewDelegate, UIGestureRecog
  }
                 
             } else if messageView.frame.origin.x > 60 && messageView.frame.origin.x <= 160 {
-                //red
-                imageContainer.backgroundColor = UIColor(red: 228/255.0, green: 61/255.0, blue: 39/255.0, alpha: 1)
+            //green message
+                imageContainer.backgroundColor = UIColor(red: 98/255.0, green: 211/255.0, blue: 80/255.0, alpha: 1)
                 archiveIcon.alpha = 0.7
                 
-                
+           //red message
             } else if messageView.frame.origin.x > 160 {
-                imageContainer.backgroundColor = (UIColor.blackColor())
-               
+                imageContainer.backgroundColor = UIColor(red: 228/255.0, green: 61/255.0, blue: 39/255.0, alpha: 1)
+                archiveIcon.alpha = 0
+                laterIcon.alpha = 0
+                
             } else if messageView.frame.origin.x < -260 {
                 imageContainer.backgroundColor = (UIColor.blueColor())
                 
+            //yellow message
             } else if messageView.frame.origin.x < -60 {
                 imageContainer.backgroundColor = UIColor(red: 248/255.0, green: 203/255.0, blue: 39/255.0, alpha: 1)
                 laterIcon.alpha = 0.7
-                
+                deleteIcon.alpha = 0
                 
                 
         } else if sender.state == UIGestureRecognizerState.Ended {
