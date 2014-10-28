@@ -8,7 +8,7 @@
 
 import UIKit
 
-class FeedViewController: UIViewController, UIScrollViewDelegate {
+class FeedViewController: UIViewController, UIScrollViewDelegate, UIGestureRecognizerDelegate {
 
     @IBOutlet weak var scrollView: UIScrollView!
     @IBOutlet weak var feedImage: UIImageView!
@@ -19,6 +19,7 @@ class FeedViewController: UIViewController, UIScrollViewDelegate {
     @IBOutlet weak var rescheduleImage: UIImageView!
     var imageCenter: CGPoint!
     
+   
     
     
     
@@ -51,8 +52,8 @@ class FeedViewController: UIViewController, UIScrollViewDelegate {
         var translation = sender.translationInView(view)
         var velocity = sender.velocityInView(view)
         
-       println("location\(location)")
-       println("translation\(translation)")
+       //println("location\(location)")
+     //  println("translation\(translation)")
        // println("velocity\(velocity)")
         //
         if sender.state == UIGestureRecognizerState.Began {
@@ -64,27 +65,24 @@ class FeedViewController: UIViewController, UIScrollViewDelegate {
           messageView.center.x = imageCenter.x + translation.x
         
           
-            imageContainer.backgroundColor = (UIColor.lightGrayColor())
+            imageContainer.backgroundColor = UIColor(red: 223/255.0, green: 223/255.0, blue: 223/255.0, alpha: 1)
              laterIcon.alpha = 1
              archiveIcon.alpha = 1
             
             if messageView.frame.origin.x < -235 {
-                imageContainer.backgroundColor = (UIColor.brownColor())
+                imageContainer.backgroundColor = UIColor(red: 206/255.0, green: 150/255.0, blue: 98/255.0, alpha: 1)
                 
-                UIView.animateWithDuration(1, delay: 0, usingSpringWithDamping: 0.7, initialSpringVelocity: 0.5, options: nil, animations: { () -> Void in
+                UIView.animateWithDuration(1, delay: 0.5, usingSpringWithDamping: 0.7, initialSpringVelocity: 0.5, options: nil, animations: { () -> Void in
                     self.rescheduleImage.alpha = 1
                     
                     }) { (finished: Bool) -> Void in
  }
-               
-
-
-            
-               
                 
-            } else if messageView.frame.origin.x > 60 {
-                imageContainer.backgroundColor = (UIColor.redColor())
+            } else if messageView.frame.origin.x > 60 && messageView.frame.origin.x <= 160 {
+                //red
+                imageContainer.backgroundColor = UIColor(red: 228/255.0, green: 61/255.0, blue: 39/255.0, alpha: 1)
                 archiveIcon.alpha = 0.7
+                
                 
             } else if messageView.frame.origin.x > 160 {
                 imageContainer.backgroundColor = (UIColor.blackColor())
@@ -93,7 +91,7 @@ class FeedViewController: UIViewController, UIScrollViewDelegate {
                 imageContainer.backgroundColor = (UIColor.blueColor())
                 
             } else if messageView.frame.origin.x < -60 {
-                imageContainer.backgroundColor = (UIColor.yellowColor())
+                imageContainer.backgroundColor = UIColor(red: 248/255.0, green: 203/255.0, blue: 39/255.0, alpha: 1)
                 laterIcon.alpha = 0.7
                 
                 
@@ -102,11 +100,10 @@ class FeedViewController: UIViewController, UIScrollViewDelegate {
             
                 
         }
-        
-        
+           
+            
     }
-
-
+        
     /*
     // MARK: - Navigation
 
@@ -118,5 +115,27 @@ class FeedViewController: UIViewController, UIScrollViewDelegate {
     */
 
 }
-}
+    @IBAction func onTap(sender: UITapGestureRecognizer) {
+        println("tapped")
+        
+        messageView.alpha = 0
+        rescheduleImage.alpha = 0
+       archiveIcon.alpha = 0
+//        imageContainer.backgroundColor = (UIColor.yellowColor())
+//        feedImage.animationDuration = 0.2
+//        feedImage.frame.origin.y = 132
+       UIView.animateWithDuration(0.5, animations: {() -> Void in
+          self.feedImage.frame.origin.y = 132
+            self.imageContainer.backgroundColor = UIColor(red: 248/255.0, green: 203/255.0, blue: 39/255.0, alpha: 0.5)
+       })
+    
+    }
+    
+    func gestureRecognizer(gestureRecognizer: UIGestureRecognizer!, shouldRecognizeSimultaneouslyWithGestureRecognizer otherGestureRecognizer: UIGestureRecognizer!) -> Bool {
+        return true
+    }
+    }
+    
+
+
 

@@ -67,9 +67,12 @@
                                                     <outletCollection property="gestureRecognizers" destination="qEo-OY-qLQ" appends="YES" id="K2o-Lm-Y5u"/>
                                                 </connections>
                                             </imageView>
-                                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="reschedule" id="Ixo-D7-GTT">
+                                            <imageView contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="reschedule" id="Ixo-D7-GTT">
                                                 <rect key="frame" x="0.0" y="-26" width="320" height="568"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <connections>
+                                                    <outletCollection property="gestureRecognizers" destination="ThQ-RM-0OM" appends="YES" id="Emz-bi-DN9"/>
+                                                </connections>
                                             </imageView>
                                         </subviews>
                                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
@@ -97,6 +100,11 @@
                         <action selector="messageSwipe:" destination="vXZ-lx-hvc" id="yxq-oK-qOU"/>
                     </connections>
                 </panGestureRecognizer>
+                <tapGestureRecognizer id="ThQ-RM-0OM">
+                    <connections>
+                        <action selector="onTap:" destination="vXZ-lx-hvc" id="qD2-yr-G4N"/>
+                    </connections>
+                </tapGestureRecognizer>
             </objects>
             <point key="canvasLocation" x="145" y="114"/>
         </scene>
